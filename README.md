@@ -9,7 +9,6 @@
 ```
 GezaYo-App/
 ├── .env.example                # Sample environment file template
-├── API_documentation.md        # Comprehensive REST API contracts & JSON schemas
 ├── pubspec.yaml                # Project dependencies & asset declarations
 ├── assets/                     # Graphic assets, logos, and icons
 ├── lib/
