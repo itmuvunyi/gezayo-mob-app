@@ -169,18 +169,25 @@ Ensure your local development environment meets the following minimum requiremen
    cp .env.example .env
    ```
 2. Open `.env` and verify/update your Firebase project credentials and API keys:
-   ```env
-   FIREBASE_PROJECT_ID=gezayo-2179c
-   FIREBASE_MESSAGING_SENDER_ID=586525703658
-   FIREBASE_STORAGE_BUCKET=gezayo-2179c.firebasestorage.app
-   FIREBASE_WEB_API_KEY=AIzaSyA4f0bQIt7Ex3-nZ_dtwA9LzcRgpx4il1M
-   FIREBASE_WEB_APP_ID=1:586525703658:web:4362c0eb230a857b96c693
-   FIREBASE_ANDROID_API_KEY=AIzaSyDbyNh7NF0XTcpwrsF6YKtAYZq_l7pQ2NE
-   FIREBASE_ANDROID_APP_ID=1:586525703658:android:34689bce1e46f23596c693
-   FIREBASE_IOS_API_KEY=AIzaSyCAY1JFJMDR0ib9XQ922myhwIf3GucujCY
-   FIREBASE_IOS_APP_ID=1:586525703658:ios:e5af38feb988a0b396c693
-   API_BASE_URL=https://api.gezayo.rw/v1
-   ```
+```env
+FIREBASE_PROJECT_ID=gezayo-2179c
+FIREBASE_MESSAGING_SENDER_ID=586525703658
+FIREBASE_STORAGE_BUCKET=gezayo-2179c.firebasestorage.app
+
+FIREBASE_WEB_API_KEY=AIzaSyA4f0bQIt7Ex3-nZ_dtwA9LzcRgpx4il1M
+FIREBASE_WEB_APP_ID=1:586525703658:web:4362c0eb230a857b96c693
+FIREBASE_WEB_AUTH_DOMAIN=gezayo-2179c.firebaseapp.com
+
+FIREBASE_ANDROID_API_KEY=AIzaSyDbyNh7NF0XTcpwrsF6YKtAYZq_l7pQ2NE
+FIREBASE_ANDROID_APP_ID=1:586525703658:android:34689bce1e46f23596c693
+
+FIREBASE_IOS_API_KEY=AIzaSyCAY1JFJMDR0ib9XQ922myhwIf3GucujCY
+FIREBASE_IOS_APP_ID=1:586525703658:ios:e5af38feb988a0b396c693
+FIREBASE_IOS_BUNDLE_ID=com.example.gezayoApp
+
+API_BASE_URL=https://api.gezayo.rw/v1
+GOOGLE_WEB_CLIENT_ID=586525703658-web-client.apps.googleusercontent.com
+```
 
 ### Installation Steps
 1. **Clone the Repository**:
